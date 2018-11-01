@@ -1,0 +1,90 @@
+#logo{
+   margin-top: -85px; 
+}
+#logo a{
+    cursor: pointer;
+}
+#logo img {
+    z-index: 200;
+    position: relative;
+    top : 0;
+    left : 50%;
+    width: 150px;
+    height: 150px;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#socialList li a img{
+    width : 30px;
+    height: 30px;
+}
+
+#links li a{
+    text-decoration : none;
+    font-size : 30px;
+    line-height: 70px;
+}
+
+#linksWrapper{
+    height: 70px;
+   
+}
+
+#pagePic {
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    background-image: url('images/double.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pagePic h1{
+    margin-top: 30px;
+    color : white;
+}
+
+#main img{
+    display : block;
+    margin : 0px auto;
+    height: 300px;
+    width: 350px;
+}
+
+
+/*** contacthbs ***/
+#contactInfo{
+    color: white;
+    background-color: rgb(0,128,150);
+}
+
+#contactInfoWrapper{
+     margin-top : 50px;
+}
+
+#mInfo{
+    background-color: rgb(0,100,255);
+}
+
+input, label {
+    color : white;
+}
+
+/**** foooter *****/
+
+footer {
+    height: 30px;
+}
+
+footer div p{
+    line-height: 30px;
+}
