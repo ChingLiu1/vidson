@@ -9,8 +9,10 @@
   "author": "\"chingliu\"",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "hbs": "^4.0.1",
+    "nodemailer": "^4.6.8",
     "nodemon": "^1.18.5"
   }
 }

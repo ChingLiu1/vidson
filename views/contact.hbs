@@ -35,28 +35,32 @@
                 </div>
             </div>
             <div class="col-lg-6" id="mInfo">
-                <form>
+                <span style="color: white">{{success}}{{failed}}</span>
+                <form method="post" action="/schedule">
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" class="form-control" placeholder="your name">
+                        <input type="text" class="form-control" name="username" placeholder="your name">
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="text" class="form-control" placeholder="your email">
+                        <input type="text" class="form-control" name="email" placeholder="your email">
                     </div>
                     <div class="form-group">
                         <label>phone</label>
-                        <input type="text" class="form-control" placeholder="your phone">
+                        <input type="text" class="form-control" name="phone" placeholder="your phone">
                     </div>
                     <div class="form-group">
                         <label>Comments or message</label>
-                        <textarea class="form-control" placeholder="questions or comments" rows="5"></textarea>
+                        <textarea class="form-control" name="message" placeholder="questions or comments" rows="5"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Submit</button>
                 </form>
             </div>
         </div>  
+        <br/>
+        {{>map}}
     </section>
+      
       <br/>
     {{>footer}}
     <!-- Optional JavaScript -->
