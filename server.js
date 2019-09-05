@@ -1,8 +1,8 @@
-var express,hbs,port,nodemailer,bodyParser;
+var express,hbs,port,nodemailer;
 
 express = require('express');
 nodemailer = require('nodemailer');
-bodyParser = require('body-parser');
+
 
 var app = express();
 hbs = require('hbs');
@@ -15,8 +15,6 @@ app.set('views', 'views');
 app.set('view engine', 'hbs');
 
 //body parser middleware
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended : false}));
 
 app.get('/', (req, res) => {
     
