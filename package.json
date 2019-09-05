@@ -2,7 +2,8 @@
   "name": "vidson",
   "version": "1.0.0",
     "engines": {
-    "npm": "6.x"
+    "node": "8.11.3",
+    "npm":"5.6.0"
   },
   "description": "",
   "main": "server.js",
