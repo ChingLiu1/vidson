@@ -11,7 +11,6 @@ port = 3000 || process.env.PORT;
 app.use(express.static('public'));
 
 hbs.registerPartials(__dirname + '/views/partials');
-app.set('views', 'views');
 app.set('view engine', 'hbs');
 
 //body parser middleware
@@ -23,15 +22,15 @@ app.get('/', (req, res) => {
 });
 
 app.get('/services', (req, res) => {
-    res.render('services.hbs');
+    res.render('services');
 });
 
 app.get('/about', (req, res) => {
-    res.render('about.hbs');
+    res.render('about');
 });
 
 app.get('/contact', (req, res) => {
-    res.render('contact.hbs');
+    res.render('contact');
 });
 
 app.post('/schedule', (req, res) => {
